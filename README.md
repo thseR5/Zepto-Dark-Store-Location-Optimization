@@ -124,7 +124,3 @@ The budget cut saves money but removes all capacity headroom. Quick-commerce dem
 The model uses [PuLP](https://coin-or.github.io/pulp/) with the bundled CBC solver. Problem size is small (7 binary `y` variables, at most 112 binary `x` variables) so solve time is under a second.
 
 ---
-
-## Notes on `scenarios.py`
-
-This file was not used in the project and will not run against the current codebase. It imports `dist` and passes a `lam` argument to `build_and_solve`, neither of which exist in `dark_store_optimization.py`. It also reads `res["objective"]`, a key the solver function does not return. It appears to be a leftover from an earlier model version with a different objective formulation.
