@@ -1,7 +1,6 @@
 # Zepto Chandigarh Dark Store Location
 
 **Applied Operations Management – Final Project**
-Group 8: Shubham Kumar, Maneesh Baghel, Sanchit Gupta, Chandrakant, Tadi Eswar Reddy
 Instructor: Bismark
 
 ---
